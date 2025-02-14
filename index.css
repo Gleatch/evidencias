@@ -1,0 +1,37 @@
+hr {width: 80%;
+    color: black;}
+
+body {background-color: lightpink;
+    font-family: Arial, sans-serif;}
+
+.header {text-align: center;
+    background-color: lightgoldenrodyellow;
+    margin:auto;
+    width: 40%;
+    padding: 1%;
+    border: 2px solid;}
+
+.content {padding: 0% 8% 0% 8%;}
+
+.looks {background-color: lightcyan;
+    padding: 1%;
+    border: 2px solid;
+    margin: 2%;}
+
+.bleh {background-color: lightcyan;
+    width: fit-content;
+    padding: 0% 2% 0% 2%;
+    border: 2px solid;
+    margin: 2%;}
+
+.green {background-color: lightgreen;
+    padding: 0% 2% 0% 2%;
+    border: 2px solid;
+    margin: 2%;
+    width:fit-content;}
+
+.red {background-color: lightcoral;
+    padding: 0% 2% 0% 2%;
+    border: 2px solid;
+    margin: 2%;
+    width: fit-content;}
