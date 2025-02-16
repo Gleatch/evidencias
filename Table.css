@@ -1,0 +1,42 @@
+html::-webkit-scrollbar {display: none;}
+
+body {font-family: Arial, sans-serif;
+    background-color: lightskyblue;}
+
+header{text-align: center;}
+
+table {position: static;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: whitesmoke;}
+
+table, th, td {border: 2px solid black;}
+
+section {text-align: justify;}
+
+#title{background-color: lightcoral;
+    padding: 0% 2% 0% 2%;
+    border: 2px solid;
+    margin: 2% 35% 2% 27%;
+    width:40%;}
+
+#umm {background-color: lightcoral;
+    padding: 0% 2% 0% 2%;
+    border: 2px solid;
+    width:fit-content;}
+
+#other{background-color: whitesmoke;
+    padding: 0% 2% 0% 2%;
+    border: 2px solid;
+    width: 90%;}
+
+#jeje {background-color: whitesmoke;
+    padding: 0% 2% 0% 2%;
+    border: 2px solid;
+    width: fit-content;}
+
+.container{padding: 0% 8% 0% 8%;}
+
+
