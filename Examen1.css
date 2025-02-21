@@ -1,0 +1,22 @@
+body{font-family: Arial, sans-serif;}
+
+header{text-align: center;}
+
+.container1{display: flex; 
+    justify-content: center; 
+    align-items: center;}
+
+.container1 p{margin: auto 5% auto 10%;
+    padding: 1% 5%;
+    background-color: rgb(152, 219, 50);}
+
+.container1 img{margin: auto 20%;}
+
+iframe{margin: auto 10%;}
+
+table{margin: 2% auto;}
+
+footer{text-align: center;
+    background-color: black;
+    color: white;}
+
