@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <title>Formularios</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Formulario para paqueteria</h1>
+    </header>
+    
+    <form action="" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Informacion general del cliente</legend>
+
+            <div class="first">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" size="15" maxlength="30" title="Nombre" required>
+                <label for="ApellidoP">Apellido paterno</label>
+                <input type="text" name="ApellidoP" id="ApellidoP" placeholder="Apellido paterno" size="15" maxlength="30" title="ApellidoP">
+
+                <label for="ApellidoM">Apellido materno</label>
+                <input type="text" name="ApellidoM" id="ApellidoM" placeholder="Apellido materno" size="15" maxlength="30" title="ApellidoM">
+
+                <br>
+                <br>
+
+                <label for="user">Nombre de usuario</label>
+                <input type="text" name="user" id="user" placeholder="Nombre de usuario" size="15" maxlength="30" title="usuario" required>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" size="15" maxlength="30" title="password" required>
+
+                <label for="fecha">Fecha de registro</label>
+                <input type="date" name="fecha" id="fecha" placeholder="Fecha" size="15" maxlength="30" title="fecha">
+            </div>   
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Datos para facturar</legend>
+            <div class="second">
+                <div class="cajita">
+
+                    <div class="cajitas">
+                        <label for="pais" id="cajita">País</label>
+                        <br>
+                        <select name="pais" size="3">
+                            <option value="">Mexico</option>
+                            <option value="">Pakistan</option>
+                            <option value="">Brazil</option>
+                            <option value="">USA</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="cajitas">
+                        <label for="ciudad" id="cajita">Ciudad</label>
+                        <br>
+                        <select name="ciudad" id="ciudad" size="3" id="espacios">
+                            <option value="">SLP</option>
+                            <option value="">Karachi</option>
+                            <option value="">Lahore</option>
+                            <option value="">Alabama</option>
+                    </select>
+                    </div>
+                    <label for="calle">Calle</label>
+                    <input type="text" name="calle" id="calle" placeholder="Calle" size="15" maxlength="30" title="calle">
+                </div>
+                <br>
+                <br>
+
+                <label for="numero">Numero de casa</label>
+                <input type="number" name="numero" id="numero" placeholder="Numero de calle" title="numero">
+
+                <label for="colonia">Colonia</label>
+                <input type="text" name="colonia" id="colonia" placeholder="Colonia" size="15" maxlength="30" title="colonia">
+
+                <label for="mail">E-mail</label>
+                <input type="email" name="mail" id="mail" placeholder="E-mail" size="15" maxlength="30" title="mail" required>
+
+                <br>
+                <br>
+
+                <label for="rfc">R.F.C</label>
+                <input type="text" name="rfc" id="rfc" placeholder="R.F.C" size="15" maxlength="30" title="rfc" required>
+
+                <label for="cp">C.P</label>
+                <input type="text" name="cp" id="cp" placeholder="Codigo postal" size="15" maxlength="30" title="cp">
+
+                <label for="terminos">Acepto terminos y condiciones</label>
+                <input type="checkbox" name="terminos" id="terminos" size="15" maxlength="30" title="terminos" required>
+
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+                <input type="submit" name="restablecer" id="restablecer" value="Restablecer">
+            </div>
+        </fieldset>
+
+    </form>
+
+    <footer>
+        <h2>03/03/2025</h2>
+    </footer>
+
+</body>
+</html>
