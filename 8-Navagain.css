@@ -1,0 +1,26 @@
+body{font-family: "VT323", monospace;}
+
+ul{list-style-type: none;
+    width: 20%;
+    background-color: lightcoral;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;}
+
+li a{display: block;
+    background-color: lightcoral;
+    padding: 14px;
+    text-decoration: none;}
+
+li a:hover{background-color: lightpink;}
+
+li a.activo{background-color:darkcyan;
+    color: white;}
+
+.capa1{margin-left: 20%;
+    margin-top: 0%;
+    padding: 12px;}
+
+p{text-align: justify;}
