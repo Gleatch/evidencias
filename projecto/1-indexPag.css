@@ -1,0 +1,97 @@
+body{font-family: "Dosis", sans-serif;
+    background-color: #004aad;}
+
+.container{background-color: #b2e1fd;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 710px;}
+
+.header{background-color: #004aad;
+    color: white;
+    height: fit-content;
+    text-align: center;
+    width: 90%;
+    font-size: 25px;
+    border-radius: 30px;
+    margin: auto auto;}
+
+.header h1{margin: 1%;
+    font-family: "Questrial", sans-serif;}
+
+.others{display: flex; 
+    margin: 0%;}
+
+.menu{background-color: #004aad;
+    color: orange;
+    border-radius: 30px;
+    text-align: center;
+    height: fit-content;
+    width: 14%;
+    margin: 1% 1% 1% auto;
+    padding-bottom: 20px;}
+
+.menu h2{margin: 15% auto;
+    font-size: 40px;}
+
+.menu a{color: white;
+    text-decoration: none;
+    font-family: "Questrial", sans-serif;}
+
+.menu p{margin: 15% auto;
+    font-size: 30px;}
+
+.menu p:hover{
+    color: #ffcc00;}
+
+.main{background-color: #004aad;
+    display: flex;
+    border-radius: 30px;
+    color: white;
+    height: fit-content;
+    width: 50%;}
+
+.main p{margin: 40% auto;
+    font-size: 30px;}
+
+.pics{background-color: #004aad;
+    margin: 0%;
+    border-radius: 30px;}
+
+.pics img{width: 90%;
+    margin: 5% 2%;}
+
+.info{text-align: left;
+    margin: auto 7% auto 0%;
+    font-family: "Questrial", sans-serif;}
+
+.galeria{background-color: #004aad;
+    color: orange;
+    border-radius: 30px;
+    text-align: center;
+    height: fit-content;
+    width: 14%;
+    margin: 1% auto 1% 1%;
+    padding-bottom: 20px;
+    font-family: "Questrial", sans-serif;}
+
+.galeria h2{margin: 15% auto;
+    font-size: 40px;}
+
+.galeria a{color: white;
+     text-decoration: none;
+     font-family: "Questrial", sans-serif;}
+
+.galeria p{margin: 15% auto;
+    font-size: 30px;}
+
+.galeria p:hover{
+    color: #ffcc00;}
+
+footer{
+    padding: 1%;
+    color: white;
+    font-family: "Dosis", sans-serif;
+    font-size: 15px;
+}
