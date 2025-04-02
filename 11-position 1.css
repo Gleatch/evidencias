@@ -1,0 +1,51 @@
+.contenedor{
+	position: relative; /*Va a seguir ocupando su espacio */
+	background: lightcoral;
+	height: 100px;
+}
+
+.caja1{
+	position: relative;
+	background: lightskyblue;
+	height: 50px;
+	left: 10px;
+}
+
+.caja2{
+	position: absolute; /*el elemento se va a poder mover, no va a ocupar el espacio definido*/
+	background: lightgreen;
+	height: 150px;
+	width: 150px;
+	left: 50px;
+	top: 25px;
+	z-index: -1; /*mientras mayor el nunmero, mas adelante queda el elemento, menor el nunmero se va a ubicar al fondo, se puede poner valores positivos o negativos*/
+}
+
+.caja3{
+	position: absolute;
+	background: lightslategray;
+	width: 125px;
+	height: 125px;
+	right: 100px;
+	top: 40px;
+	z-index: 2;
+}
+
+.caja4{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	background: lightcyan;
+	top: 55px;
+	right: 55px;
+	z-index: 3;
+}
+
+.caja5{
+	position: fixed;/*contenedor que permanezca fijo*/
+	right: 0px;
+	bottom: 0px;
+	width: 100px;
+	border: 2px solid lightsalmon;
+	z-index: 4; /*para que los elementos pasen por abajo de esta caja*/
+}
