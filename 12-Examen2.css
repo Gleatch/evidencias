@@ -1,0 +1,57 @@
+html::-webkit-scrollbar {display: none;}
+
+body{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    text-align: center;
+}
+h2{
+    margin-bottom: 3%;
+}
+
+.galeria1{
+    position: relative;
+    top: 20px;
+    display: flex;
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+    transition: opacity 0.3s ease; /* Optional: For smooth fade-out */
+}
+
+.imagen img{
+    margin: 0%;
+    width: 80%;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+#nightwing{
+    width: 106%;
+    margin: 0px;
+}
+
+#redhood{
+    width: 73.5%;
+    margin: 0px;
+}
+
+#redrobin{
+    width: 70%;
+    margin: 0px;
+    position: relative;
+    right: 90px;
+}
+
+#robin{
+    width: 118%;
+    margin: 0px;
+    position: relative;
+    right: 130px;
+}
+
+label{
+    background-color: black;
+    padding: 2%;
+    cursor: pointer;
+}

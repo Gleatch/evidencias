@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="12-Examen2.css">
+    <title>Examen práctico Parcial 2</title>
+</head>
+<body>
+
+    <h1>Examen práctico Parcial 2</h1>
+
+    <h2>Nombre del alumno(a): Sara María Martell Lara - 186160</h2>
+
+    <label for="mostrar" id="galleryLabel">Galería de imágenes</label>
+
+    <div class="galeria1">
+        <div class="imagen">
+            <img src="imgs/Nightwing.jpg" alt="Paisaje 1" id="nightwing">
+        </div>
+        <div class="imagen">
+            <img src="imgs/Red Hood.jpg" alt="Paisaje 2" id="redhood">
+        </div>
+        <div class="imagen">
+            <img src="imgs/Red Robin.jpg" alt="Paisaje 3" id="redrobin">
+        </div>
+        <div class="imagen">
+            <img src="imgs/Robin.jfif" alt="Paisaje 4" id="robin">
+        </div>
+    </div>
+
+    <script>
+        const label = document.getElementById("galleryLabel");
+        const gallery = document.querySelector(".galeria1");
+
+        label.addEventListener("mouseenter", () => {
+            gallery.style.display = "none";
+        });
+
+        label.addEventListener("mouseleave", () => {
+            gallery.style.display = "flex";
+        });
+    </script>
+</body>
+</html>
