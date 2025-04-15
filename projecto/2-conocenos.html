@@ -1,41 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conócenos - Marine Rescue</title>
     <link rel="stylesheet" href="2-conocenos.css">
-    <title>Document</title>
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Dosis:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <div class="container">
         <div class="header">
-            <header><a href="1-indexPag.html">
-                <img src="imgs/flecha.png" alt="Flecha" id="flecha">
-                </a><h1><span style="color: #ffcc00;">Conócenos</span></h1></header>
+            <header>
+                <a href="proyectofinal.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <h1><span class="highlight">Conócenos</span></h1>
+            </header>
         </div>
-        <div class="others">
-
-            <div class="main">
-                <div class="top">
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Neque laudantium saepe ad, consequuntur cumque veniam sequi 
-                        asperiores dignissimos alias illum omnis suscipit, hic quam 
-                        explicabo eius sint, animi optio incidunt?</h2>
-                </div>
-                <div class="photos">
-                    <img src="imgs/delfines.jpg" alt="">
-                    <img src="imgs/inside.jpg" alt="">
-                    <img src="imgs/niña y delfines.jpg" alt="">
-                </div>
+        
+        <div class="main-content">
+            <div class="mission-section">
+                <h2>Nuestra Misión</h2>
+                <p>Creemos en la preservación de nuestro medio ambiente mientras inspiramos el espíritu humano a través del liderazgo en el rescate, la rehabilitación y la liberación de la vida marina; educación ambiental; investigación; y conservación. Somos una organización sin fines de lucro 501 (c) (3).</p>
             </div>
 
+            <div class="media-container">
+                <div class="media-box map-container">
+                    <h3>Nuestra Ubicación</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3523.5540869915076!2d-82.82027332613191!3d27.9769395135524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2f12b65ed9a89%3A0x87f5727ae1aed713!2sClearwater%20Marine%20Aquarium!5e0!3m2!1ses-419!2smx!4v1743827982190!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+                <div class="media-box video-container">
+                    <h3>Nuestro Trabajo</h3>
+                    <iframe src="https://www.youtube.com/embed/BmdUDPdjKAI?si=kYetLGEJxW5aktUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="qna-section">
+                <div class="qna-header">
+                    <h2><span class="highlight">Preguntas Frecuentes</span></h2>
+                </div>
+                
+                <div class="qna-grid">
+                    <div class="qna-item">
+                        <h3>¿Cuál es su horario de atención?</h3>
+                        <p>Nuestro horario regular de atención es de 10 a.m. a 5 p.m. Estamos abiertos de 9 a.m. a 6 p.m. con horario extendido en fechas seleccionadas.</p>
+                    </div>
+                    
+                    <div class="qna-item">
+                        <h3>Cometí un error en la compra en línea de mis boletos/programas. ¿Cómo puedo solucionar esto?</h3>
+                        <p>Nuestro centro de llamadas de CMA está disponible para ayudarlo a realizar cambios en su pedido. Estamos abiertos los 7 días de la semana de 10:00 a.m. a 5:30 p.m. en el 727-441-1790, ext 0.</p>
+                    </div>
+                    
+                    <div class="qna-item">
+                        <h3>¿Sus instalaciones están en el interior o en el exterior?</h3>
+                        <p>Nuestras instalaciones son una experiencia tanto en el interior como en el exterior. Si ha comprado un crucero en barco, recuerde que es más fresco en el agua que en tierra, especialmente durante los meses de invierno. Lo mejor es vestirse en capas.</p>
+                    </div>
+                    
+                    <div class="qna-item">
+                        <h3>¿Dónde se encuentra su entrada?</h3>
+                        <p>Todos los huéspedes se registrarán en Ticketing, ubicado en la entrada del 3er nivel de CMA, para recibir la admisión para ingresar a las instalaciones. El estacionamiento está conectado directamente con la entrada en el 3er nivel.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <footer>Página Web desarrollada para la materia de Programación Web I. Primavera 2025. Universidad Polítecnica de San Luis Potosí</footer>
+
+    <footer>
+        <p>Página Web desarrollada para la materia de Programación Web I. Primavera 2025.</p>
+        <p>Universidad Politécnica de San Luis Potosí</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/ClearwaterMarineAquarium"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/CMAquarium"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/cmaquarium/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
