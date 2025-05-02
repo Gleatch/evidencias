@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+	<script type="text/javascript" src="12-formulario_acuario.js"></script>
+	<link rel="stylesheet" type="text/css" href="12-formulario_acuario.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<a href="1-indexPag.html">
+				<img src="imgs/flecha.png" alt="Flecha" id="flecha">
+			</a>
+			<header><h1>Cuestionario diagnóstico</h1></header>
+		</div>
+		<div class="body">
+			<h3>NOTA:</h3>
+			<p>En caso de no conocer la respuesta, escribe: No lo sé.</p>
+			<form name="formulario">
+				<label for="respuesta1">1.¿Has escuchado hablar del Clearwater Marine Aquarium antes?</label>
+				<input type="radio" name="respuesta1" id="respuesta1" value="Sí">Sí
+				<input type="radio" name="respuesta1" id="respuesta1" value="No">No<br/>
+
+				<label for="respuesta2">2.¿Sabes en qué país se encuentra ubicado el Clearwater Marine Aquarium?</label>
+				<input type="radio" name="respuesta2" id="respuesta2" value="Sí">Sí
+				<input type="radio" name="respuesta2" id="respuesta2" value="No">No<br/>
+
+				<label for="respuesta3">3.¿Podrías mencionar la ciudad específica donde está ubicado este acuario?</label>
+				<input type="text" name="respuesta3" id="respuesta3"><br/>
+
+				<label for="respuesta4">4.¿Cuál crees que es la misión principal del Clearwater Marine Aquarium?</label>
+				<input type="text" name="respuesta4" id="respuesta4"><br/>
+
+				<label for="respuesta5">5.¿Sabes si este acuario trabaja con animales rescatados, rehabilitados o liberados?</label>
+				<input type="radio" name="respuesta5" id="respuesta5" value="Sí">Sí
+				<input type="radio" name="respuesta5" id="respuesta5" value="No">No<br/>
+				
+				<label for="respuesta6">6.Menciona al menos un animal famoso asociado con este acuario.</label>
+				<input type="text" name="respuesta6" id="respuesta6"><br/>
+				
+				<label for="respuesta7">7.¿Conoces la historia de Winter, el delfín que vivió en este acuario?</label>
+				<input type="radio" name="respuesta7" id="respuesta7" value="Sí">Sí
+				<input type="radio" name="respuesta7" id="respuesta7" value="No">No<br/>
+
+				<label for="respuesta8">8.¿Crees que el Clearwater Marine Aquarium funciona igual que un acuario tradicional? ¿Por qué?</label>
+				<input type="text" name="respuesta8" id="respuesta8"><br/>
+
+				<label for="respuesta9">9.¿Qué tipo de animales marinos crees que se cuidan en el Clearwater Marine Aquarium?</label>
+				<input type="text" name="respuesta9" id="respuesta9"><br/>
+
+				<label for="respuesta10">10.¿Has visto alguna película o documental inspirado en este acuario?</label>
+				<input type="radio" name="respuesta10" id="respuesta10" value="Sí">Sí
+				<input type="radio" name="respuesta10" id="respuesta10" value="No">No<br/>
+
+				<label for="respuesta11">11.¿Qué piensas que significa “rehabilitación” en el contexto de un acuario de conservación?</label>
+				<input type="text" name="respuesta11" id="respuesta11"><br/>
+
+				<label for="respuesta12">12.¿Sabes si el acuario permite la liberación de animales al océano una vez rehabilitados?</label>
+				<input type="radio" name="respuesta12" id="respuesta12" value="Sí">Sí
+				<input type="radio" name="respuesta12" id="respuesta12" value="No">No<br/>
+
+				<label for="respuesta13">13.¿Qué importancia crees que tiene este tipo de instituciones para el medio ambiente?</label>
+				<input type="text" name="respuesta13" id="respuesta13"><br/>
+
+				<label for="respuesta14">14.¿Conoces alguna campaña o proyecto educativo que se realice en el Clearwater Marine Aquarium?</label>
+				<input type="radio" name="respuesta14" id="respuesta14" value="Sí">Sí
+				<input type="radio" name="respuesta14" id="respuesta14" value="No">No<br/>
+
+				<label for="respuesta15">15.En tu opinión, ¿cuál debería ser el rol de un acuario en la conservación de la fauna marina?</label>
+				<input type="text" name="respuesta15" id="respuesta15"><br/>
+
+				<input class="button" type="button" name="envio" id="envio" value="Obtener datos" onclick="enviar()">
+			</form>
+		</div>
+	</div>
+		<div class="body" id="datos"></div>
+</body>
+</html>
