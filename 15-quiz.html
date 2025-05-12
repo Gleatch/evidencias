@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico de Conocimientos de Programación Web</title>
+    <link rel="stylesheet" href="15-quiz.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>SARA QUIZ</h1>
+        <form id="diagnosticForm">
+            <div class="question">
+                <p>1. ¿Cuál es mi favorita?</p>
+                <label><input type="radio" name="q1" value="1"> Interview With the Vampire</label>
+                <label><input type="radio" name="q1" value="0"> The Good Place</label>
+                <label><input type="radio" name="q1" value="0"> Attack on Titan</label>
+            </div>
+
+            <div class="question">
+                <p>2. ¿Cuál es mi libro favorito?</p>
+                <label><input type="radio" name="q2" value="0"> Dune</label>
+                <label><input type="radio" name="q2" value="1"> The Song of Achilles</label>
+                <label><input type="radio" name="q2" value="0"> The Vampire Armand</label>
+            </div>
+
+            <div class="question">
+                <p>3. ¿Cuál es mi pelicula favorita?</p>
+                <label><input type="radio" name="q3" value="0"> Conclave</label>
+                <label><input type="radio" name="q3" value="1"> Dune: part one</label>
+                <label><input type="radio" name="q3" value="0"> But I'm a Cheerleader</label>
+            </div>
+
+            <div class="question">
+                <p>4. ¿Cuál es mi serie de comics favorita?</p>
+                <label><input type="radio" name="q4" value="1"> Red Robin 2009</label>
+                <label><input type="radio" name="q4" value="0"> Robin 2021</label>
+                <label><input type="radio" name="q4" value="0"> The Boy Wonder</label>
+            </div>
+
+            <div class="question">
+                <p>5. ¿Quién es mi cantante favorito?</p>
+                <label><input type="radio" name="q5" value="0"> Mitski</label>
+                <label><input type="radio" name="q5" value="0"> Chappell Roan</label>
+                <label><input type="radio" name="q5" value="1"> Hozier</label>
+            </div>
+
+            <button type="button" id="evaluateBtn">Evaluar Respuestas</button>
+        </form>
+
+        <div id="results" class="hidden">
+            <h2>Resultados del Diagnóstico</h2>
+            <p>Tu puntuación: <span id="score">0</span>/5</p>
+            <p id="feedback"></p>
+            
+            <div class="chart-container">
+                <canvas id="resultsChart"></canvas>
+            </div>
+            
+            <button type="button" id="generatePdfBtn">Generar PDF</button>
+        </div>
+    </div>
+
+    <script src="15-quiz.js"></script>
+</body>
+</html>
